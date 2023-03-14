@@ -2,6 +2,8 @@
 
 This project was done in a timespan of 3 hours, using React, Typescript and Tailwind CSS.
 
+*** IMPORTANT: This is a Work In Progress / First pass. I plan to find some time to improve the project before the final delivery deadline (March 17th 2023). ***
+
 Live version available here: [welbi.surge.sh](https://welbi.surge.sh)
 
 ## Requirements
