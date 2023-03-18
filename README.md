@@ -2,8 +2,6 @@
 
 This project was done in a timespan of 3 hours, using React, Typescript and Tailwind CSS.
 
-***IMPORTANT: This is a Work In Progress / First pass. I plan to find some time to improve the project before the final delivery deadline (March 17th 2023).***
-
 Live version available here: [welbi.surge.sh](https://welbi.surge.sh)
 
 ## Requirements
@@ -26,7 +24,7 @@ while the other required fields are set to default values.
 
 Given a few more hours, I would have implemented the UI for creating new
 residents and new programs. I would also have moved the API request and state
-management to a custom hook, and I would have implemented a more
+management to a custom hook (Work on this was started), and I would have implemented a more
 robust error handling and loading animation handling system, along with testing.
 
 Oh, and by the way, I love Community too.
