@@ -1,31 +1,5 @@
 import React, { useState } from "react";
-
-interface ProgramAttendance {
-  programId: number;
-  residentId: number;
-  status: string;
-}
-
-export interface Program {
-  id: string;
-  name: string;
-  location: string;
-  start: string;
-  end: string;
-  allDay: boolean;
-  recurrence: string | null;
-  isRepeated: boolean;
-  dimension: string;
-  attendance: ProgramAttendance[];
-  facilitators: string[];
-  hobbies: string[];
-  tags: string[];
-  applicantId: number | null;
-  parentId: number | null;
-  levelOfCare: string;
-  createdAt: string;
-  updatedAt: string;
-}
+import { Program } from "../types";
 
 interface ProgramsProps {
   programs: Partial<Program>[];

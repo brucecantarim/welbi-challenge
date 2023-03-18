@@ -1,28 +1,5 @@
 import React from "react";
-
-interface ResidentAttendance {
-  programId: number;
-  residentId: number;
-  status: string;
-}
-
-export interface Resident {
-  id: string;
-  name: string;
-  firstName: string;
-  lastName: string;
-  preferredName: string;
-  roomNumber: string;
-  status: string;
-  attendance: ResidentAttendance[];
-  ambulation: string;
-  applicantId: number | null;
-  birthDate: string;
-  levelOfCare: string;
-  moveInDate: string;
-  createdAt: string;
-  updatedAt: string;
-}
+import { Resident } from "../types";
 
 interface ResidentsProps {
   residents: Partial<Resident>[];

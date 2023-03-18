@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import EmailForm from "./components/EmailForm";
-import Programs, { Program } from "./components/Programs";
-import Residents, { Resident } from "./components/Residents";
+import Programs from "./components/Programs";
+import Residents from "./components/Residents";
+import { Program, Resident } from "./types";
 
 const App: React.FC = () => {
   const [authToken, setAuthToken] = useState("");
